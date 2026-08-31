@@ -22,6 +22,14 @@
     background-color: #5b5b5b;
 }
 
+.navbar-nav .nav-link  {
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    color: #ffffff8c !important;
+}
+
 /* hero background image */
 .bgimage {
     height: 100vh;

@@ -58,7 +58,6 @@
 /* skills */
 .skillsText.card {
     height: 350px;
-    cursor: pointer;
 }
 .skillsText img {
     width: 100%;
@@ -79,9 +78,7 @@
 .card:hover .skillsIcon {
     color: #008000;
 }
-.skillsText:hover {
-    border: 1px solid #008000;
-}
+
 
 /* portfolio */
 #portfolio p {

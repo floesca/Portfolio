@@ -106,6 +106,17 @@ body {
     color: #008000;
 }
 
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
+}
+
+.carousel-control-prev {
+    justify-content: flex-start !important;
+}
+
+.carousel-control-next {
+    justify-content: flex-end !important;
+}
 
 /* portfolio */
 #portfolio p {

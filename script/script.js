@@ -25,19 +25,36 @@ function handleNavbarCollapse() {
 
 // Function to dynamically create HTML elements from the JSON file
 function createSkillsFromJSON() {
+
+    const carouselInner = document.querySelector("#skillsCarousel .carousel-inner")
+
     const container = document.querySelector("#skills .container");
-    let row = document.createElement("div");
-    row.classList.add("row");
+    
+    
 
     // Load the JSON file
     fetch("data/skills.json")
         .then((response) => response.json())
         .then((data) => {
-            // Iterate through the JSON data and create HTML elements
-            data.forEach((item, index) => {
-                const card = document.createElement("div");
-                card.classList.add("col-lg-4", "mt-4");
-                card.innerHTML = `
+
+            // on parcourt les compétences par groupe de 3
+            for (let i = 0; i < data.length; i += 3) {
+                const slide  = document.createElement("div")
+                slide.classList.add("carousel-item")
+
+                if (i === 0) {
+                    slide.classList.add("active")
+                }
+
+                let row = document.createElement("div")
+                row.classList.add("row")
+
+                // ajout max 3 compétences par slide
+                for (let j = i; j < i + 3 && j < data.length; j++) {
+                    const item = data[j]
+                    const card = document.createElement("div")
+                    card.classList.add("col-lg-4", "mt-4")
+                    card.innerHTML = `
                     <div class="card skillsText">
                         <div class="card-body">
                             <img src="./images/${item.image}" alt="image logo compétence" />
@@ -46,17 +63,12 @@ function createSkillsFromJSON() {
                         </div>
                     </div>
                 `;
-
-                // Append the card to the current row
                 row.appendChild(card);
-
-                // If the index is a multiple of 3 or it's the last element, create a new row
-                if ((index + 1) % 3 === 0 || index === data.length - 1) {
-                    container.appendChild(row);
-                    row = document.createElement("div");
-                    row.classList.add("row");
                 }
-            });
+                slide.appendChild(row)
+
+                carouselInner.appendChild(slide)
+            }
         });
 }
 // Function to dynamically create HTML elements from the JSON file

@@ -40,7 +40,7 @@ function createSkillsFromJSON() {
                 card.innerHTML = `
                     <div class="card skillsText">
                         <div class="card-body">
-                            <img src="./images/${item.image}" alt="logo" />
+                            <img src="./images/${item.image}" alt="image logo compétence" />
                             <h3 class="card-title mt-3">${item.title}</h3>
                             <p class="card-text mt-3">${item.text}</p>
                         </div>

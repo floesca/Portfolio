@@ -73,6 +73,25 @@ body {
     color: var(--darkBlue);
 }
 
+.hero-text h1 {
+    margin: 0 90px;
+}
+
+.hero-text h2 {
+    margin: 50px 90px 0;
+}
+
+.hero-text .btn {
+    background-color: var(--pink);
+    border: none;
+    margin-top: 50px;
+    color: var(--darkBlue) !important;
+}
+
+.hero-text .btn:hover {
+    background-color: var(--pink);
+}
+
 /* about */
 .imageAboutPage {
     width: 100%;

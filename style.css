@@ -89,7 +89,8 @@ body {
 }
 
 .hero-text .btn:hover {
-    background-color: var(--blue);
+    background-color: var(--darkBlue);
+    color: var(--white) !important;
 }
 
 /* feature cards */

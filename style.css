@@ -16,8 +16,8 @@ body {
 #skills,
 #portfolio,
 #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
 }
 #about h2,
 #skills h2,
@@ -32,7 +32,7 @@ body {
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: var(--white);
-    border-radius: 0 0 25px 25px;
+    border-radius: 0 0 45px 45px;
 }
 
 .navbar-nav .nav-link  {
@@ -55,7 +55,7 @@ body {
     background: url("images/boris-misevic-sBCNZp6-b0Q-unsplash.jpg");
     background-size: cover;
     position: relative;
-    border-radius: 0 0 25px 25px;
+    border-radius: 0 0 45px 45px;
 }
 /* text css above hero image*/
 .hero_title {
@@ -89,6 +89,46 @@ body {
 }
 
 .hero-text .btn:hover {
+    background-color: var(--pink);
+}
+
+/* feature cards */
+.feature-card ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#feature .container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.feature-card {
+    height: 250px;
+    padding: 60px 10px;
+    border-radius: 45px 45px 0 0;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.tests-fonc {
+    background-color: var(--peach);
+}
+
+.tests-auto {
+    background-color: var(--blue);
+}
+
+.tests-api {
     background-color: var(--pink);
 }
 

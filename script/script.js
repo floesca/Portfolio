@@ -28,10 +28,6 @@ function createSkillsFromJSON() {
 
     const carouselInner = document.querySelector("#skillsCarousel .carousel-inner")
 
-    const container = document.querySelector("#skills .container");
-    
-    
-
     // Load the JSON file
     fetch("data/skills.json")
         .then((response) => response.json())

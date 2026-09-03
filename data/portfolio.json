@@ -2,19 +2,19 @@
     {
         "image": "image1.png",
         "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "text": "Intégration front-end avec HTML et CSS.",
+        "link": "https://github.com/floesca/booki"
     },
     {
-        "image": "image2.png",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "image": "header.png",
+        "title": "Eco.Bliss.Bath",
+        "text": "Automatisation de tests avec Cypress.",
+        "link": "https://github.com/floesca/Eco-Bliss-Bath"
     },
     {
         "image": "image3.png",
         "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "text": "Intégration front-end avec React, React Router et Vite.",
+        "link": "https://github.com/floesca/Kasa"
     }
 ]

@@ -15,14 +15,16 @@ body {
 #about,
 #skills,
 #portfolio,
-#contact {
+#contact,
+#background {
     margin-top: 2rem;
     padding-top: 1rem;
 }
 #about h2,
 #skills h2,
 #portfolio h2,
-#contact h2 {
+#contact h2,
+#background h2 {
     margin-bottom: 3rem;
 }
 #contact {
@@ -102,7 +104,6 @@ body {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
-    
 }
 
 .feature-card h2 {
@@ -125,6 +126,7 @@ body {
 /* about */
 #about {
     background-color: var(--blue);
+    padding-bottom: 2rem;
 }
 
 .about-quote {
@@ -189,6 +191,17 @@ body {
     background-color: var(--blue);
     border: none;
     color: var(--darkBlue);
+}
+
+/* background */
+.background-card {
+    height: 400px;
+    padding: 60px 10px;
+    border-radius: 45px 45px 0 0;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 /* contact */

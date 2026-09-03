@@ -94,12 +94,6 @@ body {
 }
 
 /* feature cards */
-.feature-card ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
-}
-
 .feature-card {
     height: 250px;
     padding: 60px 10px;
@@ -212,13 +206,32 @@ border-radius: 45px 45px 0 0;
     color: var(--darkBlue);
 }
 
-#contact a {
+#contact .btn {
+    background-color: var(--white);
+    color: var(--darkBlue) !important;
+    border: none;
+}
+
+#contact .btn:hover {
+    background-color: var(--darkBlue);
+    color: var(--white) !important;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* footer */
+footer {
+    background-color: var(--blue);
+    padding-bottom: 50px;
+}
+
+footer a {
     text-decoration: none;
     color: var(--darkBlue);
 }
 
-#contact a:hover {
+footer a:hover {
     text-decoration: underline;
+    color: var(--darkBlue);
 }
-
-/* footer */

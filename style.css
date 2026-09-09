@@ -166,6 +166,20 @@ body {
     text-align: center;
 }
 
+#about .btn {
+    background-color: var(--white);
+    color: var(--darkBlue) !important;
+    border: none;
+}
+
+#about .btn:hover {
+    background-color: var(--darkBlue);
+    color: var(--white) !important;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* skills */
 .skillsText.card {
     height: 350px;

@@ -27,13 +27,13 @@ Ce site a été conçu pour être consultable sur desktop, tablette et mobile.
 
 Le portfolio est accessible en ligne :
 
-[https://floesca.github.io/Portfolio/] (https://floesca.github.io/Portfolio/)
+https://floesca.github.io/Portfolio/
 
 ## Installation en local
 
 Pour consulter le projet localement :
 
-```git clone [https://github.com/floesca/Portfolio.git]```
+```git clone https://github.com/floesca/Portfolio.git```
 
 Puis ouvrir le fichier index.html dans un navigateur.
 

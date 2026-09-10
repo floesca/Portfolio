@@ -287,3 +287,41 @@ footer a:hover {
     text-decoration: underline;
     color: var(--darkBlue);
 }
+
+/* barre de navigation version mobile */
+
+@media (max-width: 991.98px) {
+
+    .navbarScroll {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1050;
+    }
+
+    .navbarScroll.navbarDark {
+        border-radius: 0;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+
+        background-color: var(--white);
+
+        padding: 1rem 1.5rem;
+
+        z-index: 1049;
+    }
+
+    .navbar-nav {
+        align-items: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0.4rem 0;
+    }
+}

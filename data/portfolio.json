@@ -1,20 +1,26 @@
 [
     {
-        "image": "image1.png",
+        "image": "image1.webp",
         "title": "Booki",
         "text": "Intégration front-end avec HTML et CSS.",
         "link": "https://github.com/floesca/booki"
     },
     {
-        "image": "header.png",
+        "image": "header.webp",
         "title": "Eco.Bliss.Bath",
         "text": "Automatisation de tests avec Cypress.",
         "link": "https://github.com/floesca/Eco-Bliss-Bath"
     },
     {
-        "image": "image3.png",
+        "image": "image3.webp",
         "title": "Kasa",
         "text": "Intégration front-end avec React, React Router et Vite.",
         "link": "https://github.com/floesca/Kasa"
+    },
+     {
+        "image": "architecte.webp",
+        "title": "Sophie Bluel",
+        "text": "Création d'une page web dynamique avec JavaScript.",
+        "link": "https://github.com/floesca/architecte"
     }
 ]

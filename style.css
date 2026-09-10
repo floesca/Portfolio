@@ -64,7 +64,7 @@ body {
 .bgimage {
     height: 100vh;
     max-height: 900px;
-    background: url("images/boris-misevic-sBCNZp6-b0Q-unsplash.jpg");
+    background: url("images/background.webp");
     background-size: cover;
     position: relative;
     border-radius: 0 0 45px 45px;

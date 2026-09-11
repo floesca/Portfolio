@@ -2,25 +2,50 @@
     {
         "image": "image1.webp",
         "title": "Booki",
-        "text": "Intégration front-end avec HTML et CSS.",
-        "link": "https://github.com/floesca/booki"
+        "text": "Intégration front-end HTML et CSS de la page d'accueil d'une agence de voyage en suivant une maquette Figma.",
+        "link": "https://github.com/floesca/booki",
+        "category": "Développement"
     },
     {
         "image": "header.webp",
         "title": "Eco.Bliss.Bath",
-        "text": "Automatisation de tests avec Cypress.",
-        "link": "https://github.com/floesca/Eco-Bliss-Bath"
+        "text": "Automatisation de tests fonctionnels, API et de sécurité en identifiant en amont les scénarios à prioriser grâce à l'analyse des fonctionnalités et parcours critiques.",
+        "link": "https://github.com/floesca/Eco-Bliss-Bath",
+        "category": "Automatisation de tests avec Cypress"
     },
     {
         "image": "image3.webp",
         "title": "Kasa",
-        "text": "Intégration front-end avec React, React Router et Vite.",
-        "link": "https://github.com/floesca/Kasa"
+        "text": "Intégration front-end avec React, React Router et Vite d'une application web de location immobilière.",
+        "link": "https://github.com/floesca/Kasa",
+        "category": "Développement"
     },
-     {
+    {
         "image": "architecte.webp",
         "title": "Sophie Bluel",
-        "text": "Création d'une page web dynamique avec JavaScript.",
-        "link": "https://github.com/floesca/architecte"
+        "text": "Création d'une page web dynamique avec JavaScript pour le portfolio d'une architecte d'intérieur.",
+        "link": "https://github.com/floesca/architecte",
+        "category": "Développement"
+    },
+    {
+        "image": "qwenta.webp",
+        "title": "Menu Maker by Qwenta",
+        "text": "Planification du développement d'un site permettant aux restaurateurs de créer leurs menus en ligne.",
+        "link": "documents/Spécifications-techniques.pdf",
+        "category": "Gestion de projet"
+    },
+    {
+        "image": "tomsen.webp",
+        "title": "TOMSEN",
+        "text": "Conception d'une stratégie de test afin de tester une application de gestion financière pour les particuliers avant la mise en production.",
+        "link": "documents/Stratégie-de-test.pdf",
+        "category": "Stratégie de test"
+    },
+    {
+        "image": "724events.webp",
+        "title": "724 Events",
+        "text": "Conception d'un bilan de campagne de test grâce à un cahier de recette et des tests exploratoires.",
+        "link": "documents/Bilan-de-campagne.pdf",
+        "category": "Bilan de campagne de test"
     }
 ]

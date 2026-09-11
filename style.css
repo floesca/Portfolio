@@ -195,16 +195,9 @@ body {
 #skills p {
     text-align: center;
 }
-.skillsIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
-}
+
 .card-title {
     text-align: center;
-}
-.card:hover .skillsIcon {
-    color: #008000;
 }
 
 .carousel-control-prev, .carousel-control-next {
@@ -217,6 +210,28 @@ body {
 
 .carousel-control-next {
     justify-content: flex-end !important;
+}
+
+.skill-level {
+    padding: 0 14px;
+    border-radius: 20px;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.skill-level.débutant {
+    background-color: var(--pink);
+    color: var(--darkBlue);
+}
+
+.skill-level.intermédiaire {
+    background-color: var(--blue);
+    color: var(--darkBlue);
+}
+
+.skill-level.avancé {
+    background-color: var(--peach);
+    color: var(--darkBlue);
 }
 
 /* portfolio */

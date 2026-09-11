@@ -2,31 +2,55 @@
     {
         "image": "html-css.webp",
         "title": "HTML - CSS",
-        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
+        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS",
+        "level": "Intermédiaire"
     },
     {
         "image": "js.webp",
         "title": "JavaScript",
-        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
+        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires",
+        "level": "Intermédiaire"
     },
     {
         "image": "react.webp",
         "title": "React",
-        "text": "Création d’applications React, création de composants et manipulation de leur état"
+        "text": "Création d’applications React, création de composants et manipulation de leur état",
+        "level": "Intermédiaire"
     },
     {
         "image": "gestion-de-projet.webp",
         "title": "Gestion de projet",
-        "text": "Analyse des besoins client, définition d’une solution technique adaptée et planification des différentes étapes du projet"
+        "text": "Analyse des besoins client, définition d’une solution technique adaptée et planification des différentes étapes du projet",
+        "level": "Intermédiaire"
     },
     {
         "image": "optimisation-et-debug.webp",
         "title": "Optimisation et debug",
-        "text": "Identification et correction d’anomalies, optimisation des performances et du référencement, puis mise en ligne du site"
+        "text": "Identification et correction d’anomalies, optimisation des performances et du référencement, puis mise en ligne du site",
+        "level": "Intermédiaire"
     },
     {
         "image": "test.webp",
         "title": "Test & QA",
-        "text": "Tests exploratoires, unitaires et d’intégration, définition de stratégies de test, rédaction de cahiers de recette et automatisation de tests E2E et API"
+        "text": "Tests exploratoires, unitaires et d’intégration, définition de stratégies de test, rédaction de cahiers de recette et automatisation de tests E2E et API",
+        "level": "Intermédiaire"
+    },
+    {
+        "image": "bootstrap.webp",
+        "title": "Bootstrap",
+        "text": "Mise en page responsive, personnalisation des composants et utilisation des classes utilitaires Bootstrap",
+        "level": "Débutant"
+    },
+    {
+        "image": "cypress.webp",
+        "title": "Cypress",
+        "text": "Automatisation de scénarios de tests fonctionnels, API et E2E",
+        "level": "Intermédiaire"
+    },
+    {
+        "image": "outils.webp",
+        "title": "Outils QA & collaboration",
+        "text": "Utilisation de Jira pour le suivi des anomalies, Git et GitHub pour la gestion de versions et Figma pour l'analyse des interfaces",
+        "level": "Intermédiaire"
     }
 ]

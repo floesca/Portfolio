@@ -102,6 +102,10 @@ body {
 }
 
 @media (max-width: 767.98px) {
+    .hero_title {
+        margin-top: 50px !important;
+    }
+
     .buttons-container {
         display: flex;
         flex-direction: column;
@@ -110,8 +114,7 @@ body {
     }
 
     .buttons-container a {
-        margin-left: 0 !important;
-        margin-right: 0 !important;
+        margin: 50px 0 !important;
     }
 }
 

@@ -47,5 +47,12 @@
         "text": "Conception d'un bilan de campagne de test grâce à un cahier de recette et des tests exploratoires.",
         "link": "documents/Bilan-de-campagne.pdf",
         "category": "Bilan de campagne de test"
+    },
+    {
+        "image": "portfolio.webp",
+        "title": "Mon portfolio de testeuse et développeuse web",
+        "text": "Création de mon portfolio avec HTML, CSS, Bootstrap, Javascript",
+        "link": "https://github.com/floesca/Portfolio",
+        "category": "Développement"
     }
 ]

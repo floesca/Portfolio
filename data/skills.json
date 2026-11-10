@@ -39,7 +39,7 @@
         "image": "bootstrap.webp",
         "title": "Bootstrap",
         "text": "Mise en page responsive, personnalisation des composants et utilisation des classes utilitaires Bootstrap",
-        "level": "Débutant"
+        "level": "Intermédiaire"
     },
     {
         "image": "cypress.webp",
@@ -52,5 +52,11 @@
         "title": "Outils QA & collaboration",
         "text": "Utilisation de Jira pour le suivi des anomalies, Git et GitHub pour la gestion de versions et Figma pour l'analyse des interfaces",
         "level": "Intermédiaire"
+    },
+    {
+        "image": "sql.webp",
+        "title": "SQL",
+        "text": "Rédaction de requêtes pour gérer, consulter, filtrer et organiser des données dans une base de données",
+        "level": "Débutant"
     }
 ]
